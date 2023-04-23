@@ -1,0 +1,386 @@
+@font-face {
+  font-family: Lora;
+  src: url("../font/Lora-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: WorkSans;
+  src: url("../font/WorkSans-VariableFont_wght.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: black;
+  height: 100vh;
+  color: #ffffff;
+}
+header .line {
+  display: flex;
+  justify-content: center;
+}
+header img {
+  height: 30vh;
+  width: 30vw;
+}
+header .head {
+  text-align: center;
+  margin: 50px auto 100px auto;
+  width: 32.9vw;
+  height: 30vh;
+}
+header .head p {
+  font-family: "WorkSans", sans-serif;
+  font-size: 0.95vw;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+header .head h1 {
+  font-family: "Lora", sans-serif;
+  font-size: 5.2vw;
+  font-weight: 600;
+  line-height: 70px;
+}
+header span {
+  color: black;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 2px white;
+}
+
+.head-bear {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 100px;
+}
+.head-bear .logo img {
+  width: 55px;
+  height: 30px;
+}
+.head-bear .button {
+  width: 120px;
+  height: 55px;
+  border: 2px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head-bear .button a {
+  text-decoration: none;
+  color: white;
+}
+
+.wildfires {
+  background-color: black;
+  background-image: url("../img/map.svg");
+  background-size: 30%;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  color: #ffffff;
+  height: 200vh;
+  padding: 100px 100px;
+}
+.wildfires .history p {
+  font-family: "Lora", sans-serif;
+  font-size: 88px;
+  padding-bottom: 100px;
+  width: 58vw;
+}
+.wildfires .stats h5 {
+  font-family: "WorkSans", sans-serif;
+  font-size: 16px;
+  padding-bottom: 15px;
+}
+.wildfires .stats p {
+  font-family: "Lora", sans-serif;
+  font-size: 64px;
+}
+
+.stuck {
+  position: relative;
+  padding-top: 30vh;
+}
+.stuck .text1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  padding-bottom: 720px;
+}
+.stuck .text1 h2 {
+  font-size: 88px;
+  font-family: "Lora", sans-serif;
+}
+.stuck .text1 p {
+  font-size: 16px;
+  font-family: "WorkSans", sans-serif;
+}
+.stuck .text2 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  padding-bottom: 240px;
+}
+.stuck .text2 p {
+  font-size: 16px;
+  font-family: "WorkSans", sans-serif;
+}
+.stuck img {
+  width: 300px;
+  height: 200px;
+}
+.stuck .action1 {
+  position: absolute;
+  top: -5%;
+  right: 5%;
+}
+.stuck .action2 {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+}
+.stuck .action3 {
+  position: absolute;
+  top: 40%;
+  right: 0;
+}
+.stuck .action4 {
+  position: absolute;
+  left: 20%;
+  bottom: 40%;
+}
+.stuck .action5 {
+  position: absolute;
+  right: 20%;
+  bottom: 30%;
+}
+.stuck .action6 {
+  position: absolute;
+  left: 0;
+  bottom: 10%;
+}
+.stuck .action7 {
+  position: absolute;
+  right: 20%;
+  bottom: -5%;
+}
+
+.golden-bear {
+  background-color: black;
+  color: #ffffff;
+  padding-top: 27vh;
+}
+.golden-bear article {
+  display: flex;
+  justify-content: space-between;
+}
+.golden-bear .left-block {
+  width: 30vw;
+  margin-left: 200px;
+}
+.golden-bear .left-block h6 {
+  font-size: 16px;
+  font-family: "WorkSans", sans-serif;
+  padding-bottom: 25px;
+}
+.golden-bear .left-block h2 {
+  font-size: 88px;
+  font-family: "Lora", sans-serif;
+  line-height: 70px;
+  width: 5vh;
+}
+.golden-bear .right-block {
+  width: 30vw;
+  margin-right: 200px;
+}
+.golden-bear p {
+  font-size: 32px;
+  font-family: "Lora", sans-serif;
+  padding-bottom: 15px;
+}
+.golden-bear figcaption {
+  font-size: 16px;
+  font-family: "WorkSans", sans-serif;
+}
+
+.beary {
+  position: relative;
+  background-color: black;
+  height: 70vh;
+}
+.beary .bear1 {
+  height: 84vh;
+  width: 41vw;
+  position: absolute;
+  left: 10%;
+  bottom: -25%;
+  z-index: 0;
+}
+.beary .bear2 {
+  height: 55vh;
+  width: 21.5vw;
+  position: absolute;
+  right: 30%;
+  bottom: -2%;
+}
+
+.poppy-bear {
+  position: relative;
+  padding-top: 27vh;
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+.poppy-bear .california img {
+  position: absolute;
+  height: 400px;
+  width: 400px;
+  right: -7%;
+  top: -20%;
+  animation: spin 10s linear infinite;
+}
+.poppy-bear article {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.poppy-bear .left-block2 {
+  width: 25vw;
+}
+.poppy-bear .left-block2 h6 {
+  font-size: 16px;
+  font-family: "WorkSans", sans-serif;
+  padding-bottom: 25px;
+}
+.poppy-bear .left-block2 h2 {
+  font-size: 88px;
+  font-family: "Lora", sans-serif;
+  line-height: 70px;
+}
+.poppy-bear .right-block2 {
+  width: 30vw;
+}
+.poppy-bear p {
+  font-size: 32px;
+  font-family: "Lora", sans-serif;
+  padding-bottom: 15px;
+}
+.poppy-bear figcaption {
+  font-size: 16px;
+  font-family: "WorkSans", sans-serif;
+}
+
+.rosebear {
+  position: relative;
+  height: 75vh;
+  margin-bottom: 200px;
+}
+.rosebear .rosy img {
+  height: 84vh;
+  width: 41vw;
+  z-index: 0;
+  position: absolute;
+  right: 20%;
+  top: 5%;
+}
+.rosebear .smally img {
+  height: 55vh;
+  width: 21.5vw;
+  z-index: 1;
+  position: absolute;
+  left: 20%;
+  top: 20%;
+}
+
+footer {
+  background-color: black;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+footer .banner {
+  width: 1050px;
+  height: 70px;
+  background-color: white;
+  border: 1px solid #000000;
+  transform: rotate(45deg);
+  display: flex;
+  align-items: center;
+  line-height: 70px;
+  position: absolute;
+  top: 5%;
+  right: -13%;
+}
+footer .banner p {
+  font-family: "Lora", sans-serif;
+  font-size: 88px;
+}
+footer .banner span {
+  color: #ffffff;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px black;
+}
+footer .block-last {
+  display: block;
+  width: 500px;
+  height: 250px;
+  padding: 100px 0 65px 100px;
+  margin-bottom: 350px;
+}
+footer .block-last p {
+  color: #ffffff;
+  font-family: "Lora", sans-serif;
+  font-size: 32px;
+  padding-bottom: 24px;
+}
+footer .block-last h6 {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "WorkSans", sans-serif;
+  padding-bottom: 24px;
+}
+footer .button {
+  width: 120px;
+  height: 55px;
+  border: 2px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .button a {
+  text-decoration: none;
+  color: white;
+}
+
+article {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 100px 0 100px;
+}
+article .logos {
+  color: #ffffff;
+}
+article .logos p {
+  padding-bottom: 15px;
+  font-family: "WorkSans", sans-serif;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: lightgray;
+}
+
+.button:hover a {
+  color: black;
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
